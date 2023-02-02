@@ -112,6 +112,20 @@
       <artifactId>jakarta.xml.bind-api</artifactId>
     </dependency>
 
+    <!-- fixes -->
+    <dependency>
+      <groupId>com.gitlab.haynes</groupId>
+      <artifactId>libsass-maven-plugin</artifactId>
+      <version>0.2.26</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-dependency-plugin</artifactId>
+      <version>3.1.1</version>
+    </dependency>
+
+
   </dependencies>
 
   <build>
